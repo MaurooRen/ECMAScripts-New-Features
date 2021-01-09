@@ -15,3 +15,24 @@ console.log(hello.trimStart())
 let hello2 = 'hello world        '
 console.log(hello2)
 console.log(hello2.trimEnd())
+
+
+
+
+
+try {
+
+} catch {
+    error
+}
+
+
+
+let entries = [["name", "Mauricio"], ["age", 23]];
+console.log(Object.fromEntries(entries))
+
+
+
+let mySymbol = 'My Simbol'
+let symbol = Symbol(mySymbol)
+console.log(symbol.description)
